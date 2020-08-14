@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #262626;
+}
+
+.wrapper{
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 100vh;
+}
+
+button{
+	flex: 1;
+	padding: 25px 70px;
+	margin: 30px;
+	border-radius: 999px;
+	border: 5px solid #284cff;
+	font-family: 'VT323', monospace;
+	font-size: 25px;
+	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	color: #fff;
+	cursor: pointer;
+	user-select: none;
+	background: transparent;
+	background-image: url('images/wave.png');
+	background-repeat: repeat-x;
+	background-position: 0 -100%;
+	transition: 1s ease;
+}
+
+button:hover{
+    background-position: 60% 60%; 
+    color: black;
+}
+
+button:nth-child(1){
+	filter: hue-rotate(20deg);
+}
+
+button:nth-child(2){
+	filter: hue-rotate(40deg);
+}
+
+button:nth-child(3){
+	filter: hue-rotate(60deg);
+}
+
+button:nth-child(4){
+	filter: hue-rotate(80deg);
+}
+
+button:nth-child(5){
+	filter: hue-rotate(100deg);
+}
+
+button:nth-child(6){
+	filter: hue-rotate(120deg);
+}
+
+button:nth-child(7){
+	filter: hue-rotate(140deg);
+}
+
+button:nth-child(8){
+	filter: hue-rotate(160deg);
+}
+
+button:nth-child(9){
+	filter: hue-rotate(180deg);
+}
